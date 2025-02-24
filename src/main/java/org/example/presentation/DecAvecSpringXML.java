@@ -10,5 +10,4 @@ public class DecAvecSpringXML {
         IMetier metier = (IMetier) context.getBean("metier");
         System.out.println(metier.calculer());
     }
-
 }
